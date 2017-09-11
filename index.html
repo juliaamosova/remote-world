@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Remote World</title>
+    <link rel="stylesheet" href="styles/styles.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <section id="menu">
+      <div>
+
+        <section id="avatar">
+          <img src="images/avatar.png" id="picture" alt="">
+        </section>
+
+        <p>
+          Welcome to Remote World!<br>
+          Filter the map according to<br>
+          your requirements
+        </p>
+
+        <section id="buttons">
+          <button id="cafe">CAFE</button>
+          <button id="co-working">CO-WORKING</button>
+          <button id="library">LIBRARY</button>
+        </section>
+
+        <h4>ADDITIONAL FILTERS</h4>
+
+        <form action="">
+          <input type="checkbox" id="rating" name="filter" value="rating"> Google Rating: 4+ stars<br>
+          <input type="checkbox" id="hours" name="filter" value="hours"> Open now
+        </form>
+
+        <section id="reviewButtons">
+          <button id="myReviews">SHOW MY REVIEWS</button>
+        </section>
+
+        <section class="reviewInput hide">
+          <input type="textarea">
+        </section>
+
+        <button class="submitReview hide">Submit a Review for</button>
+
+        <div id="myReviewsSection"></div>
+
+        <button class="closeReview">HIDE REVIEWS</button>
+
+        <section id="footer">
+            <p>© 2017 Remote World</p>
+            <img src="images/madeinnyc.png" alt="">
+        </section>
+
+      </div>
+    </section>
+
+    <section id="main" class="container">
+      <div id="map"></div>
+      <div id="right-panel">
+        <h3>RESULTS</h3>
+        <ul id="places"></ul>
+        <button id="more">MORE</button>
+      </div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOtMSuQsHw6baC3MoTIGLRewEI4bbUC1w&libraries=places"></script>
+    <script src="js/vendor/jquery-3.0.0.min.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

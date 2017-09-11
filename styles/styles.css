@@ -1,0 +1,188 @@
+
+/* Loader view */
+#popUp.loader {
+    background-image: url(../images/hphelix-loader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Map Section on load */
+section #map {
+  float: right;
+  height: 700px;
+  width: 70%;
+  background-color: grey;
+}
+
+/* User avatar */
+#menu #avatar img {
+  height: 105px;
+  width: 100px;
+  top: 50px;
+  left: 145px;
+  position: absolute;
+}
+
+/* Main Menu section to the left of the Map */
+#menu {
+  background-color: #e9e9e9;
+  height: 700px;
+  width: 30%;
+  float: left;
+}
+
+#menu p {
+  position: absolute;
+  text-align: center;
+  top: 160px;
+  left: 105px;
+}
+
+/* Cafe, Co-Working and Library buttons */
+#menu #buttons {
+  position: absolute;
+  top: 250px;
+  left: 95px;
+}
+
+/* 'Additional Filters' heading */
+#menu h4 {
+  position: absolute;
+  top: 280px;
+  left: 110px;
+}
+
+/* Aditional Filters check boxes */
+#menu form {
+  position: absolute;
+  top: 340px;
+  left: 110px;
+}
+
+/* Show Reviews buttons */
+#menu #reviewButtons {
+  position: absolute;
+  top: 400px;
+  left: 135px;
+}
+
+/* Review section */
+input[type="textarea"] {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 73px;
+  top: 445px;
+}
+
+/* 'Review the Place' button */
+#menu .submitReview {
+  position: absolute;
+  top: 575px;
+  left: 100px;
+}
+
+/* 'Review the Place' button on load */
+.hide {
+  visibility: hidden;
+}
+
+/* My Reviews Section with scrollbar */
+#menu #myReviewsSection {
+  position: absolute;
+  top: 445px;
+  left: 73px;
+  width: 250px;
+  height: 120px;
+  overflow: scroll;
+  background-color: #C0C0C0;
+}
+
+/* Close Reviews Button */
+#menu .closeReview {
+  position: absolute;
+  top: 575px;
+  left: 150px;
+}
+
+/* 'Remote World' copyright */
+#menu #footer p {
+  position: absolute;
+  top: 595px;
+  left: 130px;
+}
+
+/* 'Made in NY' logo */
+#menu #footer img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 640px;
+  left: 175px;
+}
+
+/* Search display section */
+#right-panel {
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#right-panel select, #right-panel input {
+  font-size: 15px;
+}
+
+#right-panel select {
+  width: 100%;
+}
+
+#right-panel i {
+  font-size: 12px;
+}
+
+/* Search Results section when search had been performed */
+#right-panel {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right: 17px;
+  top: 60%;
+  margin-top: -195px;
+  height: 330px;
+  width: 200px;
+  padding: 5px;
+  z-index: 5;
+  border: 1px solid #999;
+  background: #fff;
+  visibility:visible;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 271px;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+li {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+li:nth-child(odd) {
+  background-color: #fcfcfc;
+}
+
+#more {
+  width: 100%;
+  margin: 5px 0 0 0;
+}
